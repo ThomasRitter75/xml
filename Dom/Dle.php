@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This File is part of the Selene\Module\Xml package
+ * This File is part of the Selene\Module\Xml\Tests\Dom package
  *
  * (c) Thomas Appel <mail@thomas-appel.com>
  *
@@ -12,15 +12,11 @@
 namespace Selene\Module\Xml\Dom;
 
 /**
- * @class DOMElement extends BaseDOMElement
- * @see BaseDOMElement
- *
- * @package Selene\Module\Xml\Dom
+ * @class Dle
+ * @package Selene\Module\Xml\Tests\Dom
  * @version $Id$
- * @author Thomas Appel <mail@thomas-appel.com>
- * @license MIT
  */
-class DOMElement extends \DOMElement
+class Dle extends \DOMElement
 {
     /**
      * xPath
