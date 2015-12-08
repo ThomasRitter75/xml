@@ -1,5 +1,5 @@
 {
-  "name": "selene/xml",
+  "name": "tr/xml",
   "description": "selene xml utils",
   "keywords": ["selene", "xml"],
   "license": "MIT",
@@ -7,6 +7,10 @@
     {
       "name": "Thomas Appel",
       "email": "mail@thomas-appel.com"
+    },
+    {
+      "name": "Thomas Ritter",
+      "email": "th.ritter@gmx.net"
     }
   ],
   "require": {
