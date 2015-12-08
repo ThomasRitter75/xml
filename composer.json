@@ -15,7 +15,7 @@
   ],
   "require": {
     "php":">=5.4.0",
-    "selene/common":"dev-development@dev"
+    "selene/common":"dev-development"
   },
   "require-dev": {
     "selene/testsuite":"dev-development",
