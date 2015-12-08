@@ -11,8 +11,8 @@
 
 namespace Selene\Module\Xml;
 
-use \Selene\Module\Xml\DOM\DOMElement;
-use \Selene\Module\Xml\DOM\DOMDocument;
+use \Selene\Module\Xml\Dom\DOMElement;
+use \Selene\Module\Xml\Dom\DOMDocument;
 use \Selene\Module\Xml\Traits\XmlHelperTrait;
 use \Selene\Module\Xml\Normalizer\Normalizer;
 use \Selene\Module\Xml\Normalizer\NormalizerInterface;
