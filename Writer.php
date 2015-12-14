@@ -491,7 +491,7 @@ class Writer
     private function appendTextNode(\DOMDocument $dom, $node, $value)
     {
         if (in_array(strtolower($value), ['true', 'false']) || is_numeric($value)) {
-            return $this->createTextNodeWithTypeAttribute($dom, $node, $value, 'string');
+            return $this->createText($dom, $node, $value);
         }
         if (preg_match('/(<|>|&)/i', $value)) {
             return $this->createCDATASection($dom, $node, $value);
